@@ -286,3 +286,4 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/Mvx-00-FirstDemo/FirstDemo.Droid/Resources/Resource.Designer.cs
