@@ -23,4 +23,8 @@ namespace FirstDemo.Core.ViewModels
             get { return string.Format("{0} {1}", _firstName, _lastName); }
         }
     }
+
+    public class MainViewModel : MvxViewModel
+    {
+    }
 }

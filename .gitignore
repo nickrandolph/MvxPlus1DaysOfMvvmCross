@@ -287,3 +287,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 /Mvx-00-FirstDemo/FirstDemo.Droid/Resources/Resource.Designer.cs
+/Mvx-00-FirstDemo/FirstDemo.Forms/Forms.Droid/Resources/Resource.designer.cs
