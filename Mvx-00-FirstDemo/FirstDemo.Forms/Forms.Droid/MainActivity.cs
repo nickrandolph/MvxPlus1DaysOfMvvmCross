@@ -15,7 +15,7 @@ using FirstDemo.Core.ViewModels;
 namespace FirstDemo.Forms.Droid
 {
     [Activity(Label = "FirstDemo.Forms", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : MvxFormsAppCompatActivity
+    public class MainActivity : MvxFormsAppCompatActivity<MainViewModel>
     {
         public MainActivity() : base()
         {
