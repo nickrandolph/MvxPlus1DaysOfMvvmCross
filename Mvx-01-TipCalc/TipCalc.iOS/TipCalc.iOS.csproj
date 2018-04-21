@@ -59,6 +59,9 @@
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TipCalc.iOS.Application</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Views\FirstView.cs" />
     <Compile Include="Views\FirstView.designer.cs">
@@ -73,9 +76,6 @@
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MvvmCross, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmCross.6.0.0\lib\xamarinios10\MvvmCross.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

@@ -19,6 +19,12 @@ namespace TipCalc.Core.ViewModels
             SubTotal = 100;
         }
 
+        public override async Task Initialize()
+        {
+            await Task.Delay(2000);
+            await base.Initialize();
+        }
+
         private double _generosity;
         public double Generosity
         {
