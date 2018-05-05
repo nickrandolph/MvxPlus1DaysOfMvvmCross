@@ -11,13 +11,14 @@
     <AssemblyName>FirstDemo.Forms.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.17134.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>FirstDemo.Forms.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>A576B5168BB9BC57100021915AF091343B89C124</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -143,10 +144,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="*"/>
-    <PackageReference Include="MvvmCross.Forms" Version="*"/>
-    <PackageReference Include="Xamarin.Forms" Version="*"/>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="*"/>
+    <PackageReference Include="MvvmCross" Version="*" />
+    <PackageReference Include="MvvmCross.Forms" Version="*" />
+    <PackageReference Include="Xamarin.Forms" Version="*" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="*" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\FirstDemo.Core\FirstDemo.Core.csproj">
@@ -157,6 +158,9 @@
       <Project>{E1F10F4D-055E-42C3-ADD8-E4AB97259559}</Project>
       <Name>FirstDemo.Forms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FirstDemo.Forms.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
