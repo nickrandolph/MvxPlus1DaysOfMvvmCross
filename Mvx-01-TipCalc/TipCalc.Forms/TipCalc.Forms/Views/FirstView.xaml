@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipCalc.Forms.Views.FirstView">
+    <StackLayout>
+        <Label Text="SubTotal"/>
+        <Editor Text="{Binding SubTotal, Mode=TwoWay}"/>
+        <Label Text="How generous?"/>
+        <Slider Value="{Binding Generosity, Mode=TwoWay}"
+                    Minimum="0"
+                    Maximum="100"/>
+        <Label Text="Tip:"/>
+        <Label Text="{Binding Tip}"/>
+        <Label Text="SubTotal:"/>
+        <Label Text="{Binding Total}"/>
+    </StackLayout>
+</views:MvxContentPage>
