@@ -17,8 +17,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -97,9 +96,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="*" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="*" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="*" />
+    <PackageReference Include="MvvmCross" Version="6.1.2" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="6.1.2" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TipCalc.Core\TipCalc.Core.csproj">
